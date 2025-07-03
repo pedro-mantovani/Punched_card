@@ -1,6 +1,6 @@
 # Punched Card Simulator
 
-> 🇺🇸 English | [🇧🇷 Versão em Português](#simulador-de-cartões-perfurados)
+> 🇺🇸 English | [🇧🇷 Versão em Português](#simulador-de-cartoes-perfurados)
 
 ## Overview
 
@@ -63,7 +63,7 @@ However, for consistent usage, a printed circuit board (PCB) is essential — th
 📹 [Video of the prototype](/Imagens%20e%20vídeos/protótipo.mp4)
 
 For PCB assembly, you can:
-- Use the provided [PDF](/Imagens%20e%20vídeos/trilhas.pdf) file for ready-to-print traces,
+- Use the provided [PDF](/Códigos%20e%20arquivos/trilhas.pdf) file for ready-to-print traces,
 - Or customize the schematic and board files using EAGLE.
 
 ---
@@ -84,15 +84,26 @@ For PCB assembly, you can:
 
 ---
 
-### 💡 Tips
+## 💡 Tips
 
 - Remember to adjust the LCD contrast.
 - You can customize the pin configuration.
 - All the timing can be changed to suit your needs.
+- If you are making a PCB, remember to solder both sides. To make this job easier, you can use the [one-side version](/Imagens%20e%20vídeos/one-side.png) and manually complete the 11 remaining connections.
 
 ---
 
-# Simulador de Cartões Perfurados
+## Authors:
+
+This project was developed as part of the Electronics discipline by:
+
+**Pedro Otavio Mantovani**
+
+**Mariane Ferreira dos Santos**
+
+---
+
+# Simulador de Cartoes Perfurados
 
 > 🇧🇷 Português | [🇺🇸 English Version](#punched-card-simulator)
 
@@ -153,7 +164,7 @@ Para construção física, é recomendado testar antes em uma protoboard, mas pa
 
 [Vídeo do projeto na protoboard](/Imagens%20e%20vídeos/protótipo.mp4)
 
-Para a construção em circuito impresso é possível utilizar o [PDF](/Imagens%20e%20vídeos/trilhas.pdf) pronto das trilhas ou fazer alterações no arquivo esquemático e/ou no circuito usando o EAGLE.
+Para a construção em circuito impresso é possível utilizar o [PDF](/Códigos%20e%20arquivos/trilhas.pdf) pronto das trilhas ou fazer alterações no arquivo esquemático e/ou no circuito usando o EAGLE.
 
 ## Circuito
 
@@ -173,3 +184,11 @@ Para a construção em circuito impresso é possível utilizar o [PDF](/Imagens%
 
 - Lembre-se de ajustar o contraste do display (caso contrário, o backlight acenderá, mas nenhuma letra será exibida).
 - A leitura do botão, o tempo de piscar do cursor e a pinagem podem ser facilmente alterados dentro da função `void setup()`.
+- Lembre-se de soldar a placa dos dois lados, ou usar a [versão de um lado só](/Imagens%20e%20vídeos/one-side.png) e fazer manualmente as dez ligações restantes.
+
+### Autores
+Esse trabalho faz parte da disciplina de Eletrônica, grupo do projeto:
+
+**Pedro Otavio Mantovani**
+
+**Mariane Ferreira dos Santos**
